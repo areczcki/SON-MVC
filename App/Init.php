@@ -16,6 +16,9 @@ class Init extends Bootstrap{
 		$arr["localizacao"] = array("route" => "/localizacao", "controller" => "index", "action" => "localizacao");
 		$arr["fale_conosco"] = array("route" => "/fale_conosco", "controller" => "index", "action" => "faleConosco");
 		
+		$arr["newsletter"] = array("route" => "/newsletter", "controller" => "index", "action" => "newsletter");
+		$arr["enviarNewsletter"] = array("route" => "/enviarNewsletter", "controller" => "index", "action" => "enviarNewsletter");
+		
 		$this->setRoutes($arr);
 		
 	}
